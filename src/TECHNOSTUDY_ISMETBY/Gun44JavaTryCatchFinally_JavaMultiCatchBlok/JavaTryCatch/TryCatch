@@ -1,0 +1,15 @@
+
+    #   önceden ihtimalleri iF else ile yazıyorduk TRY CATCH onun gelişmiş hali
+    #   TRY CATCH : kodlarin saglamasi
+    #   Bir progamın 100 birim kadar kodu varsa 30 birim kadar hata kontrol kodu yazılmalı
+    #   TRY: hatanın yakalandığı yer.
+    #
+    #
+    #
+    #   FİNALLY :hata olsun olmasın çalışak kod bloğudur.her zaman çalışır.
+        hata durumunda program sonlandirilir ancak FİNALLY ifadesi hata olsada yürütülür
+    #   THROW ile hatayı kendimiz oluşturup UNCHECKED EXCEPTİON metodu ile TRY CATCH  yapılır.
+    #   CATCH de yapilacak islemleri yapabilmek icin aciklama yerine THROW ile CATCH bölümüne geciliyor
+    #
+    #
+    #

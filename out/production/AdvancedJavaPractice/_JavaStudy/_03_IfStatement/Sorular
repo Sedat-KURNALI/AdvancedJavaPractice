@@ -1,0 +1,381 @@
+
+    1.Soru:
+            kullanıcıdan alınacak double1 ve double2 isimli iki tane double oluşturulmuştur.
+            Eğer double1, double2'dan büyük ise "double 1 is greater than double 2" yazdırınız.
+            Eğer double1, double2'dan küçük ise "double 1 is smaller than double 2" yazdırınız. */
+    2.Soru:
+    kullanıcıdan alınıarak  int number oluşturun.
+             Eğer int number 0 yazdırılırsa "Im neutral",
+             Eğer int number 0'dan büyükse "I m positive",
+             Eğer int number 0'dan küçükse "I am negative" yazdırılsın.   */
+
+    3.Soru:
+    kullanıcıdan alacağınız int number için
+          Eğer, int number ikiye bölündüğünde geri kalanı 0'a eşit ise "number is a EVEN number" yazdırın.
+          Eğer, int number ikiye bölündüğünde geri kalanı 0'a eşit değil ise "number is a ODD number" yazdırın.
+
+    4.Soru:
+    33 değerinde bir int oluşturun.
+                Eğer, 33'ü 4'e böldüğünüzde kalan 3'e eşit ise "Remainder is 3" yazdırınız.
+                Eğer, 33'ü 4'e böldüğünüzde kalan 2'e eşit ise "Remainder is 2" yazdırınız.
+                Eğer, 33'ü 4'e böldüğünüzde kalan 1'e eşit ise "Remainder is 1" yazdırınız.
+                Aksi halde (else) "Reminder is 0" yazdırınız.
+
+    5.Soru:
+    60 değerinde bir int oluşturun.
+        Eğer int 9'a bölününce kalan 0 ise ve 5'e bölününce kalan 0 ise "Able to divide by 9 and 5" yazdırın.
+        Eğer int 4'e bölününce kalan 0 ise ve 5'e bölünüce kalan 0 ise "Able to divide by 4 and 15" yazdırın.
+
+    6.Soru:
+    kullanıcıdan String number oluşturun.
+                 Eğer String € karakterini kapsıyorsa "This is euro" yazdırın.
+                 Eğer String $ karakterini kapsıyorsa "This is dollar" yazdırın.
+                 Aksi halde (else) "no money" yazdırın.
+
+    7.Soru:
+    45 değerinde bir double oluşturun.
+                Eğer double 5'e bölününce kalan 0 ise ve double 8'e bölününce kalan 0 ise
+                "able to divide by 5 and 8" yazdırınız.
+
+                Eğer double 10'a bölününce kalan 5 ise ve double 9'a bölününce kalan 0 ise
+                "able to divide by 9 and divide by 10 reminder is 5" yazdırınız.
+
+    8.Soru:
+    Oluşturulan bu 3 int içinde en yüksek değerli olanı bulun.
+             Bu en yüksek numarayı yazdırın.
+
+             Not: Num1 = 18 veya Num2 = 25 değerini değiştirdiğinizde kodunuz maksimum değeri yazmalıdır.
+             Tüm farklı senaryolarda maksimum sayıyı yazdırmalıdır
+    9.Soru:
+    Bir öğrencinin notunu belirleyen bir Java programı yazın.
+                Program üç tür puan (sınav, ara sınav ve final puanı) okuyacak ve notu aşağıdaki kurallara göre belirleyecektir:
+
+            Eğer ortalama not >=90% =>not=A
+            Eğer ortalama not >= 70% ve<90% => not=B
+            Eğer ortalama not >=50% ve <70% =>not=C
+            Eğer ortalama not <50% =>note=F
+
+            Aşağıdaki örnek çıktıya bakın:
+            int Quiz_score: 80
+            int mid_term_score: 68
+            int Final_score: 90
+            print (Your grade is B)
+                      (Notunuz B'dir)
+    10.Soru:
+    Kulanıcıdan aracının hızını alınız
+            Trafik cezasının değerini hesaplayın.
+                45 hız sınırıdır.
+                Eğer hızınız 55-74 arasında ise:
+                Ceza 100 $'dır.
+
+                Eğer hızınız 75 - 84 arasında ise:
+                Ceza 150 $'dır.
+
+                Eğer hızınız 85 -94 arasında ise:
+                Ceza 320 $'dır.
+
+                Eğer hızınız 94'den daha fazla ise:
+                Ceza 500 $'dır.
+
+                ve ayrıca,
+                Eğer sürücünün ehliyeti yoksa cezaya 200 $ eklenir.
+
+                Örn: Hızınız 77 iken cezanız 150$'dır ama ehliyetiniz yoksa ceza 350 $ olur.
+
+    -----------------------------------------
+
+                Örn;
+
+                currentSpeed(Hızınız) 87
+                ve isDriverLicenceAvailable(Ehliyeti var mı?) = true;
+
+                sonuç 320 olmalıdır.
+
+                currentSpeed(Hızınız) 65
+                ve isDriverLicenceAvailable(Ehliyeti var mı?) = false;
+
+                sonuç 300 olmalıdır.
+
+    11.Soru:
+    Büfeden sipariş vereceksiniz.
+            Double cuzdanim  oluşturun ve içerisinde 20 euro para olsun.
+            Ve double toplamTutar oluşturun, her işlem sonrası artsın. (her siparişten sonra belirtilen fiyatı toplamtutara ekleyin!!
+
+            ilk olarak konsolda;
+            1.Hamburger : 3 Euro
+            2.CheeseBurger: 4 Euro
+            3.Döner : 2.5 Euro
+
+            yazsın.   Kullanıcı int değeri girerek seçeneklerden birini seçsin.
+
+                    todo Eğer 1'i seçerse,
+              (toplamTutara hamburgerin fiyatını eklemeyi unutmayın!!)
+            Sistem bize "Ekstra Köfte İster misiniz ? (+1 Euro fark ile) :   (büyük küçük harf duyarlı olmaması için method kullanın)
+
+            evet derse "2. köfte ekleniyor" mesajı gelsin.Altında da "Çift köfteli hamburgeriniz hazır !" yazsın.
+
+            Hayır derse "Hamburgeriniz hazırdır !" yazsın.
+
+            todo Eğer 2 yi seçerse,
+
+             Sistem bize "Ekstra peynir ister misiniz? (+ 0,50 cent fark ile)  sorusunu sorsun.
+
+             Evet derse, "2. peynir ekleniyor" mesajı, ve altına da "Çift peynirli Cheeseburgeriniz hazır! yazsın.
+
+             Hayır derse, " ekstra peynirsiniz CheeseBurgeriniz hazır !"    yazsın.
+
+            todo Eğer 3 'ü seçerse,
+
+            Ekstra Sos ister misiniz ? (Barbekü sos ve Acı sos) :     sorusunu sorsun.
+            evet
+
+
+            Eğer Barbekü sos seçilirse "Barbekü soslu döneriniz hazır ! ",
+            Eğer Acı sos seçilirse "Acı soslu döneriniz hazır !
+
+            hayır derse,
+         Döneriniz sossuz hazırlanıyor..
+
+
+    todo    İçecek ister misiniz ? (Mevcut içeceğimiz: Coca Cola = 1,5 Euro)
+
+    Eğer evet derse, "Normal ya da Zero ?  (normal veya zero olarak cevaplayınız ): "  sorusunu sorsun.
+
+     Eğer normal derse, Coca Cola hazırlanıyor..
+     Eğer  zero derse, Coca Cola Zero hazırlanıyor.
+
+
+     Bu aşamaya kadar hep harcalamalar yaptık.
+     Her harcama yaptıgımızda double toplamTutar'a bunu eklememiz gerekiyor.
+
+     Önce cüzdanımı görmek istiyorum. (cüzdanım = 100 euro)
+     Toplam tutarı yazdırın.. (45 euro )
+     double paraUstu oluşturun ve paraüstünü yazdırın. (para üstü = 55 euro)
+
+
+
+     -TODO İPUCU -  Dummy kod eklemeniz gereken yerleri tespit edin ve boş Line ekleyin. (String bosLine = sc.nextLine();)
+
+    12.Soru:
+    1. Basit bir Kahve makinesi oluşturun.    3 çeşit kahvemiz olsun.
+    		2. Sistem şu soruyu sorsun: "Hangi Kahveyi istersiniz?"
+                3.Bu soru ile birlikte kullanıcı kahve bilgilerini görsün.  Örn:
+        Hangi Kahveyi İstersiniz?
+                1.Türk kahvesi
+    		2.Filtre Kahve
+    		3.Espresso
+        String hangiKahve oluşturun ve var olan kahvelerden birini yazınız. (örn: Türk Kahvesi,  ya da türk kahvesi.  --->
+        Büyük- küçük harf duyarlı olmaması için String methodu kullanın.)
+                1. Koşul bölümü
+        Eğer kahve Türk kahvesi ise, konsola = Türk kahvesi hazırlanıyor. yazsın.(Dümdüz Türk kahvesi yazmayın. String hangiKahve'yi çağırın!!)
+        Eğer filtre kahve ise,   konsola = Filtre kahve hazırlanıyor.  yazsın.     (String hangiKahve'yi kullanın !)
+        Eğer Espresso ise, konsola =  Espresso hazırlanıyor...   yazsın.  (String hangiKahve'yi kullanın !)
+        Eğer yanlış harf girerseniz, konsola = Hatalı tuşlama yaptınız. yazsın. (Hatalı tuslamadan sonra kod calısmaya devam edecektir, o konuyu daha görmediniz bu yüzden bastan baslatın.)
+                ----------------------------------
+        Sistem bize şu soruyu sorsun: "Süt eklememizi ister misiniz ? (Evet veya Hayır olarak cevaplayınız):
+         "   Konsolda aynen böyle  yazmalı. Parantez içi de konsolda olsun.
+        String sut olusturun.
+    		                                                                         2.Koşul Bölümü
+        eğer String sut,  evet   e eşitse,konsola, Süt ekleniyor... yazısı gelsin.         -- (Büyük küçük harf duyarlı olmaması için String methodu kullanın. Olması gereken ihtimaller: Evet, EVET, EvEt,EVEt vs.
+        eğer String sut, hayır a eşit ise, konsola , Süt eklenmiyor  yazısı gelsin.
+    		                                                                                  ----------------------------------
+        Sistem bize "Şeker ister misiniz ? (Evet veya hayır cevabını veriniz) : " şeklinde bir soru sorsun. (Büyük küçük harf duyarlılıgı olmaması için string method kullanın.
+        String seker oluşturunuz.
+
+    		3.Koşul if(){
+            Eğer String seker   Evet e eşitse ,  sistem bize "Kaç şeker olsun?" sorusunu sormalı. Sorunun altına int kacSeker  oluşturunuz.
+                    Şeker sayısını giriniz.
+            Ve konsola   şunu yazdırınız örnek: 5 şeker ekleniyor.  (ipucu: Bu kodların heosi if bloğunun içerisinde olacak)
+        }
+    		     else{
+            Eğer String şeker  hayır 'a eşitse, sistem bize "Şeker eklenmiyor" cevabını versin.
+            ONEMLİ !! =   bir int girdisinden sonra String girdisi yapacaksak,araya boş bir nextLine koymamız gerekiyor. (String bosKod = sc.nextLine();    )
+             dummy kod ekleyiniz.
+                    Sistem bize "Hangi boyutta olsun? (Büyük boy - orta boy - küçük boy olarak giriniz.) :   sorusunu sorsun. (büyük küçük harf duyarlılıgı olmamalı. yani kullanıcı büyük boy veya BüYüK Boy girdiginde kabul etmeli.
+            String boyut oluşturun...
+            4.Koşul Bölümü
+            eğer String boyut Büyük boy' a eşitse =  Kahveniz büyük boy hazırlanıyor. (Büyük boy kısmını String boyut'u kullanarak yazalım= "Kahveniz" + boyut + "hazırlanıyor.")
+            Eğer String boyut  Orta Boy'a eşitse = Kahveniz orta boy hazırlanıyor.. ("Kahveniz" + boyut + "hazırlanıyor.)
+            Eğer String boyut  Küçük boy'a eşitse = Kahveniz küçük boy hazırlanıyor.    yazsın. ("Kahveniz" + boyut + "hazırlanıyor.)
+            SONUÇ BÖLÜMÜ
+            Siparişlerimizi verdik. Son hali görmek istiyoruz.
+            konsola şunu yazdırın örnek :
+            Türk Kahvesi orta boy hazırdır. Afiyet olsun !!! (Türk kahvesi için String hangiKahveyi kullanın.     orta boy için de String boyut ' u kullanın.)
+
+    13.Soru:
+    Kullanıcıdan bir tarihi gün, ay ve yıl şeklinde alıp bu tarihi
+            ay, gün, yıl ve yıl, ay, gün sıralarına çevirerek yazan bir kod yazınız.
+
+            Örnek Ekran Çıktısı
+            Lütfen günü giriniz: 10
+            Lütfen ayı giriniz: 02
+            Lütfen yılı giriniz: 2009
+            Gün ay yıl: 10.02.2009
+            Ay gün yıl: 02.10.2009
+            Yıl ay gün: 2009.02.10
+
+    14.Soru:
+    Oluşturulan bu 3 int arasında en düşük değerdeki numarayı bulunuz.
+              Bu numarayı yazdırınız.
+              Not: Kodunuz her farklı senaryoda en küçük numarayı yazdırmalıdır.
+              Örn: 10-11-12 > 10
+
+    15.Soru:
+    90.25 ve 90.25 değerinde iki double oluşturun.
+            Eğer ilk double, ikinci double'dan büyükse  "Hello World" yazdırın.
+            Eğer ilk double, ikinci double'dan küçükse "Not Hello World" yazdırın.
+            Aksi halde (else) "I love java" yazdırın.
+
+    16.Soru:
+    Kullanıcıdan bir str isminde bir String alınız.
+            Eğer String Orange'ye eşit ise ve uzunluğu 6'ya eşit ise "Orange has six letters" yazdırınız.
+            Eğer String Apple'ye eşit ise ve uzunluğu 5'ya eşit ise "Apple has five letters" yazdırınız.
+            Eğer String Orange'yi kapsıyorsa ve uzunluğu 10'dan fazla ise
+            "String contain orange and length is more then 10" yazdırınız.
+            Not: Uzunluk derken ingilizcedeki "length" yani karakter sayısından bahsediliyor.
+
+    17.Soru:
+    Kullanıcıdan bir String alınız...
+            Eğer String null (0) değilse ve String uzunluğu 14 ise ve String "i love java" yı kapsıyorsa
+            "String is i love java and 14 character." yazdırınız.
+
+            Eğer String null(0) değilse ve karakter biçimini (büyük, kücük harf) görmezden gelirse,
+            "String is I love java" yazdırınız.
+
+    18.Soru:
+
+    19.Soru:
+    Kullanıcıdan vize ve final notlarını alınız.
+            Kullanıcın istediği oranlarda vize ve final yüzdeleri not ile not ortalamasını hesaplayıp
+            not ortalamasını yazdırıp 50 ve büyük ise "Tebrikler dersi başarı ile geçtiniz..." küçük ise
+            "Malesef dersten kaldınız..." yazdırınız.
+
+    20.Soru:
+    Kullanıcıdan bir harf girmesini isteyiniz. Girilen harf sesli ise Sesli harf olduğunu,
+        değilse sessiz harf olduğunu ekrana yazdırsın. Girdiği değer harf değilse yada
+                1 karakterden fazla ise hata mesajı göstersin. (Test girilen harfi büyük yada küçüklüğüne duyarlıdır.)
+
+        Sesli harfler: a,e,i,o,u
+
+        Test Data:
+        a
+
+        Beklenen Çıktı:
+        a harfi sesli harfdir.
+
+        Test Data:
+        d
+
+        Beklenen Çıktı:
+        d harfi sesiz harftir.
+
+        Test Data:
+        we  yada %
+
+        Beklenen Çıktı:
+        Yanlis karakter girdiniz!
+
+    21.Soru:
+    Scanner class kullanılarak verilen iki tane Stringi birbirlerine ekle.
+
+            Eger ilk kelimenin son harfi, ikinci kelimenin ilk harfi ile aynı ise aynı olan harflerin birisini kaldırın
+
+            Örnek:      "abc", "cat" --> "abcat"
+                       "abc", "dog"  -->"abcdog"
+    22.Soru:
+    Problem Tanımı
+            Klavyeden iki sayı alarak bu sayıları mantıksal olarak karşılaştıran kod örneğini yazınız.
+            Kullanılacak olan operatörler şunlardır: == , != , < , > , <= , >=
+
+            Örnek Ekran Çıktıları:
+            Birinci sayiyi giriniz: 5
+            ikinci sayiyi giriniz: 10
+            sayilar esit degildir
+            sayilar farklidir
+            ilk sayi kucuktur
+            ikinci sayi kucuk degildir
+            ilk sayi kucuk esittir
+            ikinci sayi kucuk esittir
+
+            Birinci sayiyi giriniz: 10
+            ikinci sayiyi giriniz: 10
+            sayilar esittir
+            sayilar farkli degildir
+            ilk sayi kucuk degildir
+            ikinci sayi kucuk degildir
+            ilk sayi kucuk esittir
+            ikinci sayi kucuk esittir
+
+    23.Soru:
+    Problem Tanımı
+            Kullanıcıdan üç adet sayı alarak bu sayıların
+            bir dik üçgenin kenar uzunlukları olup olmadığını hesaplatan bir kod yazınız
+            (Yardım: Bir üçgenin dik olduğunu anlamak için a2+b2=c2 pisagor
+            bağlantısından yararlanabilirsiniz)
+
+            Örnek Ekran Çıktısı
+            birinci kenarı giriniz: 2
+            ikinci kenarı giriniz 15
+            üçüncü kenarı giriniz: 7
+            Bu bir dik üçgen değildir.
+
+            Bu bir dik üçgendir
+    24.Soru:
+
+    25.Soru:
+    A şehrinden uçamak isyteyen bir kişi B şehrine 500km C şehrine  700km  D şehrine  900 km mesafededir.
+        km birim fiyati : 0.10$ 12 yasindan kucukse toplam fiyat %50 indirim 12 ve 24
+        yas arasindaysa 10% 65 yasindan buyukse 30% gidis donus alirsa20% bu
+        kosullara gore yolcudan gideceği mesafeyi isteyip ucak biletini hesaplayan program yazınız.
+
+    26.Soru:
+    Günün sorusu: if statement
+          katsayıları verilen 2 bilinmeyenli denklemin kökleriniz bulunuz.
+
+            ax^2 + bx + c;
+
+            Çözüm adımları
+            kullanıcıdan a,b,c yi okutun.
+            Delta = bb - 4ac
+            Delta > 0 => 2 tane kök vardır x1=(-b + kök(d)) / (2a)  , x2= (-b - kök(d)) / (2*a)
+            Delta = 0 => 1 tane kök vardır x = -b/2a
+            Delta < 0 ise kök yoktur.
+
+    27.Soru:
+    Kullanıcıdan aldığınız korrdinat noktasının hangi bölgede olduğunu yazdıran bir kod yazınız.
+
+        28.Soru:
+
+        29.Soru:
+
+        30.Soru:
+
+        31.Soru:
+
+        32.Soru:
+
+        33.Soru:
+    28.Soru:
+     /* bir sifre olusturunuz ozellikleri sirasi ile soyle olmalidir;
+             1_uzunlugu => en az 10 karakter(chars) olmalidir
+             2_en az 1 sembol bulundurmali
+             3_en az 1 numara bulundurmali
+             4_en az buyuk harf olmalidir
+             5_en az bir kucuk harf olmalidir
+            */
+
+    29.Soru:
+    /*
+             * bir userName (kullanici adi)olusturunuz ve onun ozellikleri sirasi ile soyle
+             * olmalidir; 1_ uzunlugu => en az 8 karakter (chars) olmalidir 2_ icinde sadece
+             * alfabetik karakterler bulunmalidir
+             */
+            // 01234
+
+    30.Soru:
+
+    31.Soru:
+
+    32.Soru:
+
+    33.Soru:

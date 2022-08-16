@@ -1,0 +1,42 @@
+Class Total {  // 1st Class islem tamam
+1. Create method named as StringToDouble.
+Parameter is a String and Return type is double.
+Remove the $ in the String, then change it to double.
+Return the double.
+2. Create method named as getTotal
+Parameter is LinkedHashMap<String,String> and Return type is double.
+By using the method StringToDouble:
+ a. change values in the LinkedHashMap<String,String> into double values,
+ b. sum all the double values and return the total.
+}
+
+Class Cart { 2nd Class islem tamam
+Create instance variables as:
+1. String userName
+2. LinkedHashMap<String , String> LMap
+Create method named as addItem
+Return type is void and parameters are String str1, String str2
+Add str1 as key to LMap  and add str2 as value to LMap
+Create method named as getPrice
+Return type is void and Parameter is Total class
+Call getTotal method from Total class.
+Create a toString method and print the datas in order such as:
+ User name is : Your Object username
+ All elements are : All the key and values in the linkedHashmap
+ Total price : Total Price of all the values
+}
+
+Class Main { 3th Class
+Create scanners for username, items and itemPrices.
+Add the items and itemPrices to LinkedHashMap from Cart class.
+Print your object
+For _duzenle.TECHNOSTUDY_USA.example:
+ username = Junior
+ item1 -- Eggs     item1Price -- $3.19
+ item2 -- Bread    item2Price -- $5.23
+ item3 --  Water   item3Price -- $6.23
+Print should be as
+User name is : James
+All elements are :{Eggs=$3.19, Bread=$5.23, Water=$6.23}
+Total price : 14.65
+}

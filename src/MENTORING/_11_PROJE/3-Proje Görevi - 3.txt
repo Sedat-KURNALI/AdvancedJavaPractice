@@ -1,0 +1,22 @@
+Proje G�revi - 3
+
+Method-12 public static void dersGuncelleForm(TreeSet<String> dersler)
+A��klama: Kullanicidan guncellenecekDers ders adini ve yeni adnini alip dersGuncelle() methoduna g�ndererek guncelleyen method
+
+Method-13 public static void listeDerslerArama(TreeSet<String> dersler)
+A��klama: Kayit edilen derslerden arananKelime icerenlerin listesini ekrana yazdiran method
+
+Method-14 public static void listeleOgrenciForm(TreeMap<Integer, String> ogrenciler)
+A��klama: Bu method ogrenciler TreeMap'ini alacak ve aranan kelime'nin numara olup olmadigini girdiSayimi() ile kotrol edip eger sayi ise �grenciyi numarasi ile, eger sayi degilse aranan kelime isim de varsa isme g�re arama bos girilmis ise t�m listeyi yazdiriniz. Bu islemler oveload methodlar ile yapilacaktir. Farkli degiskenli ayni isimli 3 method
+
+Method-15 public static void listeleOgrenci(TreeMap<Integer, String> ogrenciler)
+A��klama: Kayit edilen t�m �grencilerin listesini ekrana yazdiran method
+
+Method-16 public static void listeleOgrenci(TreeMap<Integer, String> ogrenciler, String arananKelime)
+A��klama: (overload) Kayit edilen �grencilerden adi soyadi icinde arananKelime icerenlerin listesini ekrana yazdiran method
+
+Method-17 public static void listeleOgrenci(TreeMap<Integer, String> ogrenciler, int arananNo)
+A��klama: (overload) Kayit edilen �grencilerden numarasina g�re arama yapan yapan ve ekrana yazdiran method
+
+Method-18 public static int yeniOgrenciNosuAl(TreeMap<Integer, String> ogrenciler)
+A��klama: yeni kay�t olacak ��renci i�in verilen aral�kta ancak �nceden verilmemi� _duzenle._JavaStudy.random say� �reten method

@@ -1,0 +1,22 @@
+todo       -----------       �ki HuseyinBYCalısma.random say� ile 4 i�lem                   -----------
+
+islemClass isminde bir class olu�turun.
+
+bu classta 4 i�lem i�in 4 ayr� method olu�turun.�rn: public int topla(int a, int b)- ��karma - �arpma - b�lme
+
+return olarak o i�lemi versin. �rn: return a-b;
+    ---------------------------------------------------
+main class�m�zda iki int olu�turun ve bu iki int 0'dan 15 e kadar .random say�lar als�n.
+
+Bu iki int i    4i�lem methodlar�nda kullan�n.
+
+
+
+konsol ��yle olmal�:            (Say�lar her run yap�ld���nda de�i�meli, HuseyinBYCalısma.random atanmal�)
+Say� 1 =  9
+Say� 2 =  4
+------------��lemler ----------
+Toplama:  13
+��karma:   5
+�arpma:    36
+B�lme:    2.25

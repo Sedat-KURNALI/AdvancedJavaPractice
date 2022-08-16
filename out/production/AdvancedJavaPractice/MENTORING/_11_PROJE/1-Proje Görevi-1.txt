@@ -1,0 +1,34 @@
+Proje G�revi-1:
+1. �lk �nce projeKayitIslemleri adl� bir class olu�turun.
+2. A�a��daki methodlar� olu�turup, mainden �a��rarak do�ru �al��t�klar�n� g�r�n�z.
+
+main i�lemleri :
+    main de dersler adl� String t�r� bir TreeSet olu�turunuz.
+
+Method-1 public static String kelimeDuzenle(String str)
+A��klamas�: gelen str degiskenini trim edip ilk harfini b�y�k diger harflerini k�c�k yapacak ve return edecek.
+�rnek: str: " meRhaBA   "  -->  return : "Merhaba"
+
+Method-2 public static String isimDuzenle(String str)
+A��klamas�: gelen stryi .trim() edecek, .replaceAll("[ ]+", " "); ile kelimeler arasinda birden fazla bosluk varsa
+fazla bo�luklar� bir bosluga d�n�st�recek, .split(" "); ile String[] arraye atacak, c�mlenin son kelimesinin t�m harfleri b�y�k
+�ncekileri kelimeDuzenle() methodu'nu kullanarak d�zenleyip, �nde ve sonda bosluk olmadan return edecek.
+�rnek: str : "  hasaN aLi     demir   "  -->  return : "Hasan Ali DEMIR"
+
+Method-3 public static String isimDuzenleDers(String str)
+A��klamas�: Method -2 ile benzer sadece t�m kelimeler kelimeDuzenle() methodu'nu kullanarak d�zenlenecek.
+�rnek: str : "     t�rK    diLi   "  -->  return : "T�rk Dili"
+
+Method-4 public static int numaraVer(int min, int max)
+A��klamas�: aldigi min ve max de�erleri aras�nda _duzenle._JavaStudy.random sayi �retip return edecek
+�rnek: numaraVer(10, 100);  -->  67
+
+Method-5 public static String kullanicidanVeriAl(String ekranYazisi)
+A��klamas�: Scanner kullanarak kullanicidan bir kelime ya da c�mle alacak.
+�rnek: nextLine(); kullan�n�z
+
+Method-6 public static void dersEkle(TreeSet<String> dersler, String eklenecekDers)
+A��klamas�: gelen eklenecekDers degiskenini kullanarak main de olu�turulacak TreeSet'e ekleyen method
+
+Method-7 public static void listeDersler(TreeSet<String> dersler)
+A��klamas�: gelen TreeSet'deki t�m verileri ekrana yazd�ran method

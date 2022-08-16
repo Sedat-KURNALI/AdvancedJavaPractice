@@ -1,0 +1,483 @@
+
+
+//Bir methodu main methodun icinden cagirmak icin mutlaka static kelimesini kullanmalisiniz.
+	//Method parantezinin icinde olusturulan variable'lara "parametre" denir.
+	//Methodu cagirirken method parantezinin icine yazilan degerlere "Argument" denir.
+	//Parametrenin data type'i ile Argumentin data type'i 1'e 1 eslesmeli
+	// 1) Java method'larin sadece ismine degil , isim + parametre'lere bakar
+    		// sadece parametre sayisi degil parametre'lerin data tiplerine de bakar
+
+    		str.endsWith("el");   // Bu method'un gorevi gidip kelimenin son kismini kontrol etmek
+    							  // bu method'u kullanmak icin bu method'un kontrol ettikten sonra
+    							  // bana rapor olarak ne getirdigini bilmem lazim (true/false)
+
+    		// 2) Bir method olusturdugumuzda method'un ne yapacagina
+    		//    ve gorevi yaptiktan sonra bana ne d�nd�rece�ine bastan karar vermeliyiz
+
+    		// 3) Bir method olusturulurken  " str.indexOf(String str, int fromIndex) "
+    		//	  de oldugu gibi
+    		//    disaridan kabul edecegi parametreleri ve bu parametrelerin data tiplerini
+    		//    deklare etmeliyiz
+
+    		//    Method'u calistirmak istedigimizde (Method'u cagirmak) Parametre olarak
+    		//    declare edilen data tiplerine uygun degerler girmeliyiz.
+    		//    girilen bu degerlere ARGUMENT denir.
+    		// Bir method'u calistirmak icin main method'un icinden cagirmamiz gerekir
+            	// Bir method'u cagirmak icin ise method adini ve parametrelere uygun argument'leri
+            	// yazmaliyiz
+            	/ bir method olusturmak istedigimizde Class'in icinde ama main method'un disinda
+                	// bir alanda olusturmaliyiz. Genel kullanim method'lar main method'dan sonra olur
+                	//Bir methodu olusturmak o methodu calistirmak icin yeterli degildir
+                    		// olusturulan method main method icinden cagrilinca calisir.
+    1.Soru:
+       /*
+            Problem tanımı :
+            Bir String içinde kaç kelime olduğunu yazdıran bir method yazınız.
+           Test Data:
+           Input the string: The quick brown fox jumps over the lazy dog.
+     	   Expected Output: Number of words in the string: 9
+             */
+
+    2.Soru:
+    /*
+            Problem tanımı :
+            Bir String içindeki tüm karakterleri en fazla bir kez yazdıran parametreli bir method yazınız.
+            Test Data:
+            input: "aabbcccccddddaaa"
+            output: abcd
+         */
+
+    3.Soru:
+     /*  Problem Tanımı
+                Verilen iki sayının kombinasyonunu bulan kodu yazınız.
+                Hatırlatma C(n,r) = n! / (r!(n-r)!)
+
+                Verilen iki sayının permütasyonunu bulan kodu yazınız.
+                Hatırlatma P(n,r) = n! / (n-r)!
+
+                Ekran Çıktısı
+                Birinci sayıyı giriniz: 15
+                Ikinci sayıyı giriniz: 4
+                Kombinasyon: 1365
+                permütasyon: 32760
+
+                Birinci sayıyı giriniz: 5
+                Ikinci sayıyı giriniz: 3
+                Kombinasyon: 10
+                permütasyon: 60
+              */
+
+    4.Soru:
+    //Atiba Hutchinson gibi aldiginiz ismi
+        //A. H. seklinde yazan metodu yaziniz
+        // ödev A### H#######
+
+    5.Soru:
+    /*
+         Problem Tanımı :
+        int array[][]={{7,12,97,23},{543,23,675},{2},{2,33,6,3,7}};
+        verilen Array icinde
+        --> kac tane sayi oldugunu return eden  methodu yazdiriniz
+        --> kac tane tek sayi oldugunu return eden methodu yazdiriniz
+        --> kac tane cift sayi oldugunu return eden methodu yazdiriniz
+        -->en buyuk sayi
+        -->en kucuk sayi
+        */
+
+    6.Soru:
+      /*
+                int [] arr={1,34,5,678,34,56,7,8,};
+                int search=78;
+                -78 sayisi verilen arrayde var mi?
+                2 parametreli method kullanın
+         */
+
+    7.Soru:
+
+    8.Soru:
+    /*
+        Ismi randomNum olan bir method oluşturun.
+        Parametre olarak int max almalı.
+        Bu method, 0 ile max arasında .random bir değer döndürmelidir.
+        Random numarayı döndürünüz.
+        Note: Eğer bir class oluşturmaya ihtiyaç duyuyorsanız oluşturabilirsiniz.
+        Note: Methodun adı istenilenle birebir aynı olmalı (randomNum), aksi taktirde cevap yanlış olur.
+         */
+
+    9.Soru:
+     /*
+        Create one method which name is middleWord
+        "OrtaKelime" isminden bir method oluşturun.
+        Bu method String'i parametre olarak almalı.
+        Cümle veya dizelerde ortada bulunan kelimeleri bulmalı.
+        Ortadaki kelimeyi return yapınız.
+
+        Örnek: Ben Java'yı seviyorum.
+        print : Java'yı
+
+        Örnek2:
+        Java'yı kolayca öğreniyorum.
+        print: kolayca
+         */
+
+    10.Soru:
+     /*
+            reverseString isminde bir method oluşturun.
+            Bu method bir String'i parametre olarak alsın.
+            Ve bu method, girilen String'i tersten yazsın.
+            Terste yazılmış halini yazdırınız.
+
+            Örn: String = "Java'yı Seviyorum."
+            Print: .muroyiveS ıy'avaJ
+             */
+
+    11.Soru:
+    /*
+        Problem tanımı:
+        Kullanıcıdan aldığınız bir String'deki kelimeleri sondan başa doğru yerleştiren
+        String parametreli return type li reverseWord isminde bir method yazınız
+
+         Test DAta :
+        İnput : Allah Javacı arkadaşlara  zihin açıklığı versin
+        Output : versin açıklığı zihin arkadaşlara Javacı Allah
+         */
+
+    12.Soru:
+     /*
+            Problem Tanımı :
+            getSum isminde bir method oluşturun.
+            Parametresi ArrayList'tir.
+            Dizideki tüm $ ları kaldır ve tüm sayıları topla
+            return yaptğımız veri tipi 'int' olmalıdır.
+            sonuç 0'dan küçükse, -1 yazdırın.
+
+            Örnek1:
+            ArrayList = $13, $15, $20
+            Cevap = 48 olmalı
+
+            Örnek 2 :
+            ArrayList= $-13, $0, $0
+            Cevap = -1 olmalı.
+             */
+
+    13.Soru:
+    /*
+            Problem Tanımı :
+            EvenOddNums isminde bir method oluşturun.
+            Bu yöntem String olan bir parametreyi kabul etsin.
+            Bu String'de 1234567890 gibi 10 haneli sayılar olacak.
+            Sayıların her basamağındaki rakam çiftse toplayın, tekse çıkartın.
+            toplam sonucu yazdırın.
+            İpucu:Sayılar işlemleri yapabilmeniz için, basamakları tam sayıya dönüştürmeniz gerekiyor.
+
+            For example :
+            String =  "6678421312"
+            6+6-7+8+4+2-1-3-1+2
+            sonuç 16 olmalı
+         */
+
+    14.Soru:
+    /*
+            Problem Tanımı:
+            plusOne adında bir method oluşturun.
+            Parametre olarak int Array alır.
+            Rakamlar pozitif olmalıdır ve ilk basamak 0 olamaz.
+            Yazdığınız rakamlar bir bütün olarak ele alınacaktır.
+            Orta basamağa 1 ekleyin.
+
+            Örnek 1:
+            Girdi:: [1,2,3]
+            Çıktı: [1,3,3]
+            Açıklama:Bu sayı dizisi 133'ü temsil eder.
+
+            Örnek 2:
+            Input: [4,3,5,2,1]
+            Çıktı: [4,3,6,2,1]
+            Açıklama: Bu sayı dizisi 43621'i temsil eder.
+            */
+
+    15.Soru:
+     /*
+        nextGreaterElement isminde bir method oluşturun.
+        Parametre olarak iki int array'i kabul eder.
+        Size int nums1 adında bir int array verilir ve bunun altkümesi olarak da nums2 array verilir.
+        nums2 array'indeki nums1 ögelerini arayın ve ortak olan ögeden sonra gelen numaranın,
+        nums2 array'inde bulunan sayıdan büyük olup olmadığını kontrol edin. Eğer öyle ise,
+        bu sayının yerini nums2 deki büyük sayı ile değiştirin.nums2 array'inde,
+        bulunan sayıdan sonra gelen başka bir sayı yoksa, o yer için -1 koyun.
+
+        Örnek ile daha iyi anlayacaksınız.
+
+        Example 1:
+        Girdi: nums1 = [4,1,2], nums2 = [1,3,4,2]
+        Çıktı:[-1,3,-1]
+        Açıklama:
+        İlk dizedeki 4 sayısı için, ikinci dizede (array'deki) bir sonraki büyük sayı yoktur, bu nedenle -1 yazılır.
+        İlk dizedeki 1 sayısı için, ikinci dizede 1'den sonra gelen büyük sayı 3 tür.
+        İlk dizedeki 2 sayısı için, ikinci dizede 2'den sonra gelen büyük bir sayı yoktur, bu nedenle -1 yazılır.
+
+        Cevap:[-1,3,-1]
+
+        Example 2:
+        Girdi: nums1 = [2,4], nums2 = [1,2,3,4].
+        Çıktı: [3,-1]
+        Açıklama:
+          İlk dizedeki 2 sayısı için, ikinci dizede 2'den büyük olarak 3 gelmektedir. Bu nedenle 3 'tür.
+          İlk dizedeki 4 sayısı için, ikinci dizede 4'ten sonra hiçbir sayı gelmediği için, -1 yazılır.
+
+        Cevap : [3,-1]
+
+        Not:
+
+        Sayı1 ve sayı2'deki tüm öğeler benzersizdir.
+         */
+
+    16.Soru:
+    /*
+        findTheDifference isminde bir method oluşturun.
+        iki String'den oluşmalı.
+        return  veri tipi char olmalı.
+        Bu iki string'e  s  ve t  ismini veriniz ve küçük harflerden oluşan değerler giriniz.
+        String t, rastgele karıştırma dizgileri String s tarafından oluşturulur ve
+        daha sonra rastgele bir konuma bir harf daha ekler. String t ye  eklenen harfi bulun.
+        (String s 'te olup, String t 'de olmayan elemanı yazdırın.)
+
+        Örn:
+        Girdi:
+        s = "abcde"
+        t = "abcd"
+        Çıktı:
+        e
+
+        Açıklama:
+        'e' harfi eklenmiştir.
+
+        s = "qawer"
+        t = "rewq"
+        Çıktı:
+        a
+        Açıklama:
+        'a' harfi eklenmiştir.
+         */
+
+    17.Soru:
+    /*
+        ismi fib olan bir method oluşturun.
+    Bu method bir int değer kabul etsin.
+    Return int olmalı.
+    Örnek 1:
+             Yaygın olarak F (n) olarak gösterilen Fibonacci sayıları,
+             Fibonacci sekansı adı verilen bir sekans oluşturur,
+             böylece her sayı, 0 ve 1'den başlayarak önceki iki numaranın toplamıdır.
+            F(0) = 0,   F(1) = 1
+            F(N) = F(N - 1) + F(N - 2), for N > 1.
+
+            Verilen N, değerleri hesaplayın,F(N).e1:
+            Örnek 1:
+            Girdi: 2
+            Çıktı: 1
+            Açıklama: F(2) = F(1) + F(0) = 1 + 0 = 1.
+
+            Örnek2:
+            Girdi: 3
+            Çıktı: 2
+            Açıklama: F(3) = F(2) + F(1) = 1 + 1 = 2.
+
+            Örnek 3:
+            Girdi: 4
+            Çıktı: 3
+            Açıklama:F(4) = F(3) + F(2) = 2 + 1 = 3.
+                 */
+
+    18.Soru:
+    /*
+        Problem Tanımı:
+        addDigits isminde bir method oluşturun.
+        Parametresi int
+        Return tipi de int
+        Pozitif int değerler ver ve en son sonuç tek basamaklı çıkana kadar basamakları birbiriyle topla.
+        Tek basamaklı çıktığında, döndürün
+
+        Örnek1:
+        Girdi 38
+        Çıktı: 2
+        Açıklama: İşlemler şöyle olacak: 3 + 8 = 11, 1 + 1 = 2.
+                     2 , tek basamaklı olduğundan, bunu döndürün.
+        */
+
+
+    19.Soru:
+    /*
+         Problem Tanımı :
+            powerOfThree isminde bir method oluşturun.
+            Parametre olarak int
+            Return tipi boolean
+            Bir tamsayı verildiğinde, 3 üssü olup olmadığını teyit edin. 3'ün üssü(kuvveti) ise true, değilse false döndürün.
+            Örnek 1:
+            Girdi: 27
+            Çıktı: true
+            Açıklama: 3*3*3 =27
+            Sonuç= true
+
+            Örnek 2:
+            Girdi: 0
+            Çıktı: false
+            Örnek 3:
+            Girdi: 9
+            Çıktı: true
+            Açıklama: 3*3 = 9
+            Sonuç= true
+
+            Örnek 4:
+            Girdi: 45
+            Çıktı:: false
+            Açıklama: 3*3*3*3 =81
+            Sonuç= false
+            45, 3ün üssü (kuvveti) değildir.
+         */
+
+    20.Soru:
+    /*
+            minCostClimbingStairs  isminde bir method oluşturun.
+            Parametresi    int array'dir.
+            Return tipi  int olmalıdır.
+            Bir merdivende, i'inci adımda bazı negatif olmayan maliyet, cost[i] atanır (0 indeksli).
+            Maliyeti ödediğinizde, bir veya iki adım tırmanabilirsiniz.
+            Zeminin tepesine ulaşmak için minimum maliyeti bulmanız gerekir ve
+            dizin 0 ile adımdan veya dizin 1 ile adımdan başlayabilirsiniz.
+
+            Örnek 1:
+            Girdi: cost = [10, 15, 20]
+            Çıktı: 15
+            Açıklama:  En ucuz  cost [1] 'de başlar, bu maliyeti öde ve en üste git.
+
+            Örnek  2:
+            Girdi: cost = [1, 100, 1, 1, 1, 100, 1, 1, 100, 1]
+            Çıktı: 6
+            Açıklama:  En ucuz  cost[0] 'da başlar ve 1 numaralı adımda  cost[3]' ü atlar.
+
+            Not:
+             maliyetin [2, 1000] aralığında bir uzunluğu olacaktır.
+             Her maliyet [i], [0, 999] aralığında bir tamsayı olacaktır.
+         */
+
+    21.Soru:
+
+    /*
+    Write a method called append
+    append adında bir method oluşturun.
+    Parametre olarak iki int array  oluşturun.
+     ve ikinci array'in değerlerini ilk array'in sonuna ekleme sonucunu içeren yeni bir array döndürün.
+    Örneğin, ilk array {2, 4, 6}  ve ikinci array {1, 2, 3, 4, 5} elemanlarına sahip ise,
+    Bunu döndürmelidir:
+     {2, 4, 6, 1, 2, 3, 4, 5}.
+     */
+
+    22.Soru:
+     /*
+            Problem Tanımı:
+            isUnique adında bir method oluşturun.
+            Parametre olarak int array alır.
+             ve bu dizideki değerlerin benzersiz olup olmadığını gösteren bir boolean değeri döndürür.
+             (benzerlik yoksa true, var ise false).
+            örneğin, list isminde bir array'imiz varsa,
+            int[] list = {3, 8, 12, 2, 9, 17, 43, -8, 46, 203, 14, 97, 10, 4};
+            Bu listede tekrarlanan eleman olmadığı için sonuç true dönmelidir.
+
+            int[] list = {4, 7, 2, 3, 9, 12, -47, -19, 308, 3, 74};
+            Bu listede eleman 3, iki tane olduğu için sonuç false dönmelidir.
+                 */
+
+    23.Soru:
+    // Kullanıcıya aşağıdaki gibi bir menü çıkartarak sürekli değişkenleri alınız ve
+    // her bir menü elemanını değer alan fonksiyon olarak yazınız.
+            /*  1-toplama
+                2-çıkarma
+                3-çarpma
+                4-bolme
+                5-Faktöryel
+                6-Çıkış
+            Bir işlem seçiniz */
+
+
+    24.Soru:
+
+    25.Soru:
+
+    26.Soru:
+      /*
+            Problem Tanımı :
+            kullanıcıdan 5 elemanlı bir dizi oluşturup tek
+            elemanları 0 ile çift elemanları 1 değiştirip yazdıran bir method yazınız.
+            */
+
+    27.Soru:
+     /* Problem Tanımı :
+             Basit 4 işlem yapan bir hesap makinesi kodlayınız....
+             Kullanicidan yapacagi islemi islem sembolu ile secmesini saglayalinız.
+             Kullanicidan iki sayi girmesini isteyiniz.
+             Girilen iki sayi ve secilen isleme gore dogru sonucu ekrana yazdirınız.
+           */
+
+    28.Soru:
+    // Saati saniyeye, mil'i kilometreye, kilogrami gram'a
+            // ceviren bir method yaziniz.
+            // Bu methodu main methodun disinda olusturup main methodun
+            // icinden cagiriniz.
+
+
+    29.Soru:
+    /*
+               Problem Tanımı :
+               Kullanıcıdan alınan  bir sayinin mükemmel olup olmadiğini bulan bir program yaziniz.
+               Mükemmel sayi : bir sayinin kendisi hariç bölenlerinin toplamı, kendisine eşitse o sayi mükemmeldir.
+               ORNEK:
+               INPUT     : 6
+               OUTPUT : 1,2,3
+                             1+2+3 = 6 = 6 (Mükemmel)
+               */
+
+    30.Soru:
+    /*
+                 SORU :3
+                 Kullanicidan 100 den kucuk bir tamsayi isteyip, bu sayinin daha
+                 onceden tanimlanmis array'de olup olmadigini kullaniciya donen bir method
+                 yaziniz
+
+                 Array={3,5,21,32,34,45,56,57,76,87,95}
+
+                 Input : 5  Output: Girdiginiz sayi Arrayde var
+                 Input : 15 Output: Girdiginiz sayi Arrayde yok
+                 */
+
+    31.Soru:
+     /*
+             * Pozitif bir tamsayıyı input kabul edip en büyük asal çarpanını veren bir
+             * METHOD yazınız
+             *
+             * Ör: Input : 50
+             *     Bolenler : 2,5,10,20,50
+             *     Asal Bolenler: 2,5
+             *     En buyuk asal carpan: 5
+             */
+
+    32.Soru:
+    /*
+            Interview sorusu...
+            Verilen bir metindeki harflerin frekansını(tekrar sayısı) bulup yazdıran bir METHOD yazınız.
+            (Büyük harf-küçük harf ayrımına dikkat ediniz)
+            Test data:
+            Input = AAABBCDD
+            output = A3B2C1D2
+                    */
+
+    33.Soru:
+    /*
+            Problem Tanımı :
+            parametre olarak Integer Arraylist alan ve return type int olan hillNum isminde br method yazınız
+            method ; kendinden önceki sayıdan küçük kendinden sonrakinden büyük olan sayıyı yazdırsın
+            Test data:
+            input : ArrayList 5,4,6,2,1
+            output : 2
+            2; 6 dan küçük 1 den büyük
+             */

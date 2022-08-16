@@ -1,0 +1,54 @@
+Family class{
+  Create instance variables
+      2 Integer -  totalUser, totalAmount
+      2 String - familyName , familyPrimaryUser
+  Create one method name is getTotalAmount
+    Parameter is PhonePlan (next Class)
+       This method will call the amount method from the PhonePlan class and multiply the result with amountOfUser
+    result should be equal to totalAmount
+     print  total Amount is : totalAmount
+     family name is : familyName
+     primary user is : familyPrimaryUser
+  Use toString method while printing
+}
+
+PhonePlan class{
+  Create instance variables
+    1 String - planType
+    1 Integer - priceForEach
+  Create one method name is amount
+    Parameter is 1 int (totalUser from Family class)
+    if planType equal to eco and int is less or equal to 3
+      priceForEach is 50
+    if planType equal to eco and int is bigger then 3 and less or equal 5
+      priceForEach is 45
+    if planType equal to eco and int is bigger then 5
+      priceForEach is 35
+    if planType equal to premium and int is less or equal to 3
+      priceForEach is 70
+    if planType equal to premium and int is bigger then 3 and less or equal 5
+      priceForEach is 60
+    if planType equal to premium and int is bigger then 5
+      priceForEach is 55
+  return the priceForEach
+
+}
+
+Main{
+  Use Main method here
+  Create 4 scanner variable
+   Integer - amountOfUser
+    String - familyName
+    String - familyPrimaryUser
+    String - planType
+  Create one object for each class
+  While defining the instance variables use scanner variables
+  Print the object
+  For _duzenle.TECHNOSTUDY_USA.example:
+      Scanner s1 = new Scanner(System.in);
+       String familyNameFromScanner = s1.nextLine();
+     Family f1 = new Family();
+     f1.familyName =familyNameFromScanner;
+  Print _duzenle.TECHNOSTUDY_USA.example
+     System.out.println(f1);
+}

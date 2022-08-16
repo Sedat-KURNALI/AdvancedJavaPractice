@@ -1,0 +1,43 @@
+package TechProEd2021._03_Odev.Hafta_03;
+
+import java.util.Scanner;
+
+public class _05
+        /*
+    Kullanıcını 1 ile 7 arasında bir sayı girdiğinde haftanın hangi günü olduğunu yazdıran switch case java kodunu yazinız.
+             */ {
+    public static void main(String[] args) {
+
+        Scanner scannn = new Scanner(System.in);
+        System.out.print("Lütfen 1 ile 7 arasında bir tamsayı giriniz : ");
+
+        int num = scannn.nextInt();
+        switch (num) {
+            case 1:
+                System.out.println("Pazartesi");
+                break;
+            case 2:
+                System.out.println("Salı");
+                break;
+            case 3:
+                System.out.println("Çarşamba");
+                break;
+            case 4:
+                System.out.println("Perşembe");
+                break;
+            case 5:
+                System.out.println("Cuma");
+                break;
+            case 6:
+                System.out.println("Cumartesi");
+                break;
+            case 7:
+                System.out.println("Pazar");
+        }
+    }
+}
+
+
+
+
+

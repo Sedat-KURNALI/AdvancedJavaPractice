@@ -1,0 +1,3 @@
+create patient class attributes name, surname, profile, diagnosis.
+
+ generate 3 patient object using method

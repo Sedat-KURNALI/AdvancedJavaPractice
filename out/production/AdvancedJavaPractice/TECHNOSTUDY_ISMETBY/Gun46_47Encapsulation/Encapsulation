@@ -1,0 +1,6 @@
+
+
+       * Değişkenler oluşturulduktan sonra üstten "Refactor" altından "Encapsulate Fields" seçilince de getter setter otomatik olarak oluşuyor.
+       * privet değerelere ulşamak için mutlaka constructors ve SETTER-GETTER metod yapılmak zorunda
+       * GET almak SET duzenleme set etme..SET göndermek.
+       * Encapsulation veriyi saklamak ve güvenli kılmak için kullanılır.değişkenler saklanır.
