@@ -1,4 +1,4 @@
-package TECHNOSTUDY_ISMETBY.Gun03DeğişkenlerData;
+package TECHNOSTUDY_ISMETBY.Gun03DegiskenlerData;
 
 public class EscapeCharacter {
     public static void main(String[] args) {
