@@ -6,12 +6,12 @@ import java.util.function.Consumer;
 
 public class ConsumerFonksiyonelArayuzu {
     public static void main(String[] args) {
-        List<Kisi> kişilerListesi = new ArrayList<Kisi>();
-        kişilerListesi.add(new Kisi("Ali", 27));
-        kişilerListesi.add(new Kisi("Veli", 26));
-        kişilerListesi.add(new Kisi("Can", 28));
+        List<Kisi> kisilerListesi = new ArrayList<Kisi>();
+        kisilerListesi.add(new Kisi("Ali", 27));
+        kisilerListesi.add(new Kisi("Veli", 26));
+        kisilerListesi.add(new Kisi("Can", 28));
 
-        kişilerListesi.forEach((k) -> {
+        kisilerListesi.forEach((k) -> {
             System.out.println(" Kişi Adı   : " + k.getIsim());
             System.out.println(" Kişi Yaşı  : " + k.getYas());
         });
